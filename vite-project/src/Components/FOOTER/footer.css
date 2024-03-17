@@ -1,0 +1,33 @@
+.outer-footer {
+  color: grey;
+}
+.inner-footer {
+}
+.footer-icons ul {
+  padding: 0 10%;
+  display: flex;
+  justify-self: space-between;
+  list-style: none;
+}
+
+.footer-data {
+  display: flex;
+  justify-content: center;
+  align-items: space-around;
+}
+.footer-data ul {
+  list-style: none;
+  padding: 50px;
+  margin: 20px;
+}
+.footer-data ul :hover {
+  color: white;
+}
+.copy {
+  color: ;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 10;
+  width: 100%;
+}

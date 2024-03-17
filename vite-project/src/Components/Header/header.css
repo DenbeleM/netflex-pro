@@ -1,0 +1,43 @@
+.outer-header-wrapper {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  background-color: rgb(148, 132, 132);
+  background-color: transparent;
+  height: 10vh;
+  transition: all 0.5s;
+  transition-timing-function: ease-in;
+  z-index: 1;
+  background: red;
+}
+.heade-container {
+  width: 90%;
+  display: flex;
+  justify-self: space-between;
+  align-items: center;
+}
+.left-wrapper ul {
+  width: 140%;
+  display: flex;
+  list-style: none;
+  justify-items: space-between;
+}
+.left-wrapper li {
+  padding: 2px;
+  margin: 2px;
+}
+.right-wrapper ul {
+  display: flex;
+  justify-items: space-between;
+  width: 140%;
+  list-style: none;
+}
+.right-wrapper {
+  margin-left: auto;
+}
+.right-wrapper li {
+  margin: 2px;
+  padding: 10px;
+}
