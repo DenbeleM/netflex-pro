@@ -10,8 +10,13 @@
   transition: all 0.5s;
   transition-timing-function: ease-in;
   z-index: 1;
-  background: red;
+  color: grey;
+  background: #000;
 }
+.logo {
+  background: transparent;
+}
+
 .heade-container {
   width: 90%;
   display: flex;

@@ -14,7 +14,7 @@ const Heade = () => {
           <ul>
             <li>
               {" "}
-              <img src={Logo} alt="logo" width={100} />{" "}
+              <img className="logo" src={Logo} alt="logo" width={35} />{" "}
             </li>
             <li> Netflex </li>
             <li> Home </li>

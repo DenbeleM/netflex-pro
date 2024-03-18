@@ -1,0 +1,55 @@
+/* .title {
+  display: flex;
+  text-align: center;
+  font-size: larger;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+/*  */
+.banner {
+  object-fit: contain;
+  color: white;
+  height: 100vh;
+}
+
+.mov {
+  position: absolute;
+  top: 300px;
+  left: 30px;
+  font-size: 30px; /* Set the font size to 30px */
+  color: white;
+}
+.mov-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.play {
+  padding: 10px 20px;
+  text-align: center;
+  background: white;
+  border-radius: 4px;
+  border: 2px solid transparent;
+  outline: none;
+  font-size: 1rem;
+  margin-right: 10px;
+
+  outline-width: 2px;
+}
+
+.play:hover {
+  border-color: yellowgreen;
+}
+.mylist {
+  margin-left: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  text-align: center;
+  background: transparent;
+}
+.mylist:hover {
+  box-shadow: 2px 5px rgb(100, 100, 100, 0.5);
+  color: white;
+  background: black;
+}
