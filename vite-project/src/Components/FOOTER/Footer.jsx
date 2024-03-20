@@ -1,5 +1,8 @@
 import React from "react";
 import "./footer.css";
+import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import TelegramIcon from "@mui/icons-material/Telegram";
 
 const Footer = () => {
   return (
@@ -7,9 +10,15 @@ const Footer = () => {
       <div className="inner-footer">
         <div className="footer-icons">
           <ul>
-            <li>search</li>
-            <li>search</li>
-            <li>facebook</li>
+            <li>
+              <TelegramIcon />
+            </li>
+            <li>
+              <InstagramIcon />
+            </li>
+            <li>
+              <FacebookOutlinedIcon />
+            </li>
           </ul>
         </div>
         <div className="footer-data">

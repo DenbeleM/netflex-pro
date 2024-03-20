@@ -10,11 +10,15 @@ const Home = () => {
     <div className="app">
       <Heade />
       <Banner />
-      <Row url={requests.netflex_orignals} />
+      <Row
+        url={requests.netflex_orignals}
+        title="TOP RATED"
+        islargerow="islargerow"
+      />
 
-      <Row url={requests.popular} />
-      <Row url={requests.movie} />
-      <Row url={requests.top} />
+      <Row url={requests.popular} title="MOST POPULAR " i />
+      <Row url={requests.movie} title=" BEST MOVIES EVER " />
+      <Row url={requests.top} title="Action Movies" />
 
       <Footer />
     </div>

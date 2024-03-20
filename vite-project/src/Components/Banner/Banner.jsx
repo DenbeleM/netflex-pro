@@ -21,7 +21,11 @@ const Banner = () => {
 
     fethdata();
   }, []);
-  console.log(movie);
+
+  const trancate = (words, number) => {
+    return words?.length > number ? words.substr(0, number - 1) + "..." : words;
+  };
+
   return (
     <>
       <div
@@ -35,14 +39,19 @@ const Banner = () => {
       ></div>
 
       <div className="mov">
-        <div className="title">
+        <div className="titled">
           {movie?.name || movie?.title || movie?.original_name}
         </div>
         <div className="mov-button">
           <button className="play">Play</button>
           <button className="mylist">My List</button>
         </div>
+        <div className="banner-d">
+          {" "}
+          <div className="description"> {trancate(movie?.overview, 150)}</div>
+        </div>
       </div>
+      <div className="back-fade"></div>
     </>
   );
 };

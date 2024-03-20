@@ -9,6 +9,10 @@
   justify-self: space-between;
   list-style: none;
 }
+.footer-icons ul li {
+  margin: 20px;
+  padding: 5px;
+}
 
 .footer-data {
   display: flex;

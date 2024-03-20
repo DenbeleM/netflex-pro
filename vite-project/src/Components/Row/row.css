@@ -17,3 +17,16 @@
 .poster:hover {
   transform: scale(1.09);
 }
+.islargerow {
+  max-height: 230px;
+}
+.title {
+  text-align: center;
+  padding: 4px;
+  margin: 2px;
+  font-size: 1rem;
+  color: grey;
+}
+.islargerow :hover {
+  transform: scale(1.1);
+}
